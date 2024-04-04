@@ -45,6 +45,9 @@
               <a href="" class="menu-item menu-item-inactive">Contacts</a>
             </li>
           </ul>
+          <svg class="mobile-menu-ic" width="24" height="24">
+            <use href="./images/icons.svg#mobile-menu-ic"></use>
+          </svg>
         </nav>
         <!-- Contacts -->
         <address class="contacts">
@@ -61,6 +64,7 @@
             </li>
           </ul>
         </address>
+        
       </div>
     </header>
     <main>
@@ -83,7 +87,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="title-level-three">Strategy</h3>
+              <h3 class="benef-title">Strategy</h3>
               <p class="paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -95,7 +99,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="title-level-three">Punctuality</h3>
+              <h3 class="benef-title">Punctuality</h3>
               <p class="paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -107,7 +111,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="title-level-three">Diligence</h3>
+              <h3 class="benef-title">Diligence</h3>
               <p class="paragraph">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -119,7 +123,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title-level-three">Technologies</h3>
+              <h3 class="benef-title">Technologies</h3>
               <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -416,76 +420,78 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="foot-wrapper">
-        <div class="foot-sec-one">
-          <!-- Logo -->
-          <a href="./index.html" class="footer-logo"
-            >WEB<span class="footer-logo-studio">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and <br />
-            sales for your business with digital <br />
-            marketing & growth solutions.
-          </p>
-        </div>
-        <div class="foot-soc-sec">
-          <p class="foot-soc-media">Social media</p>
-          <ul class="foot-soc-ul">
-            <li class="foot-soc-li">
-              <a href="" class="foot-soc-circle">
-                <svg class="foot-soc-ic" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="foot-soc-li">
-              <a href="" class="foot-soc-circle">
-                <svg class="foot-soc-ic" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="foot-soc-li">
-              <a href="" class="foot-soc-circle">
-                <svg class="foot-soc-ic" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="foot-soc-li">
-              <a href="" class="foot-soc-circle">
-                <svg class="foot-soc-ic" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="foot-subscr-sec">
-          <p class="foot-subscr-label">
-            Subscribe
-          </p>
-          <form class="subscr-form">
-            <label class="email-label">
-              <input
-                  type="email"
-                  name="email"
-                  placeholder="E-mail"
-                  class="email-input"
-                />
-            </label>
-            <button type="submit" class="foot-subscr-btn">
+      <div class="container">
+        <div class="foot-wrapper">
+          <div class="foot-sec-one">
+            <!-- Logo -->
+            <a href="./index.html" class="footer-logo"
+              >WEB<span class="footer-logo-studio">Studio</span></a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and <br />
+              sales for your business with digital <br />
+              marketing & growth solutions.
+            </p>
+          </div>
+          <div class="foot-soc-sec">
+            <p class="foot-soc-media">Social media</p>
+            <ul class="foot-soc-ul">
+              <li class="foot-soc-li">
+                <a href="" class="foot-soc-circle">
+                  <svg class="foot-soc-ic" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="foot-soc-li">
+                <a href="" class="foot-soc-circle">
+                  <svg class="foot-soc-ic" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="foot-soc-li">
+                <a href="" class="foot-soc-circle">
+                  <svg class="foot-soc-ic" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="foot-soc-li">
+                <a href="" class="foot-soc-circle">
+                  <svg class="foot-soc-ic" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot-subscr-sec">
+            <p class="foot-subscr-label">
               Subscribe
-              <svg class="subscr-btn-ic" width="24" height="24">
-                <use href="./images/icons.svg#icon-PaperPlane"></use>
-              </svg>
-            </button>
-          </form>
+            </p>
+            <form class="subscr-form">
+              <label class="email-label">
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                    class="email-input"
+                  />
+              </label>
+              <button type="submit" class="foot-subscr-btn">
+                Subscribe
+                <svg class="subscr-btn-ic" width="24" height="24">
+                  <use href="./images/icons.svg#icon-PaperPlane"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
     <!-- Modal -->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="close-btn">
           <svg class="close-btn-cross" width="8" height="8">
